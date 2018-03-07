@@ -1,0 +1,24 @@
+﻿p cnf 9 6
+
+c Rusi sú spiony
+¬RS ∨ SS
+-RM ∨ SM
+-RE ∨ SE
+
+c Muller je taky Nemec ako Stirlitz RUS
+-NM ∨ RS
+-RS ∨ NM
+
+c kazdy je bud rus alebo nemec ale nie oba a aspon jeden
+-RS ∨ -NS
+NS ∨ RS
+-RM ∨ -NM
+NM ∨ RM
+-RE ∨ -NE
+RE ∨ NE
+
+c práve jeden rus
+NS ∨ NM
+NS ∨ NE
+NM ∨ NE
+RS ∨ RE ∨ RM
